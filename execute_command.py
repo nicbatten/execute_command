@@ -2,5 +2,5 @@
 
 import subprocess
 
-command = "msg * you have been hacked"
+command = "%SystemRoot%\Sysnative\msg.exe * you have been hacked"
 subprocess.Popen(command, shell=True)
